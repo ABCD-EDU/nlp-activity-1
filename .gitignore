@@ -1,3 +1,6 @@
 data
 news/*.txt
 news/*.csv
+
+wiki_tl/*
+!wiki_tl/*.ipynb
