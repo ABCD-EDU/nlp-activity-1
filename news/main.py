@@ -37,28 +37,45 @@ def scrape_body(url=None):
 
     # remove html tags
     news = re.sub(r'<.*?>', '', news)
+    news = re.sub(r'&[a-z]+;', '', news)
 
     # remove new lines
-    news = re.sub(r"\n", "", news)
-
+    news = re.sub(r"\n", " ", news)
     news = re.sub(r'\s{2,}', ' ', news)
+
+    # remove numbers
+    news = re.sub(r'\d+(,\d+)*', '', news)
+
+    # remove special characters
+    news = re.sub(r'[^a-zA-Z0-9\s-]', '', news)
+
+    # double spaces
+    news = re.sub(' +', ' ', news)
+
+    news = re.sub(r'--', '', news)
+    news = re.sub(r' --', '', news)
 
     return news
   except:
     return ""
 
+all_string = ""
+
 with open('links.csv', 'r') as file:
     reader = csv.reader(file)
     for row in reader:
+        print("Scraping: " + row[0])
         link = row[0]
         text = scrape_body(link).strip()
         text = re.sub(r'http\S+', '', text)
         # TODO: more intensive data cleaning
         with open('news.txt', 'a', encoding="utf8") as file:
-          file.write(text + " \n")
-          file.close()
+          all_string += text + " "
+          print("Total word count: " + str(len(all_string.split(" "))))
 
-        with open('words.txt', 'a', encoding="utf8") as file:
-          for word in re.findall(r'[\w-]+', text):
-            file.write(word + ",\n")
-          file.close()
+          if len(all_string.split(" ")) <= 50000 and text != "":
+            print("Writing to file...")
+            file.write(text.strip() + "\n")
+          else:
+            file.close()
+            exit(1)
