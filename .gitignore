@@ -1,5 +1,5 @@
 data
-news/*.txt
+# news/*.txt
 news/*.csv
 
 wiki_tl/*
