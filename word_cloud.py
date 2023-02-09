@@ -23,8 +23,6 @@ NEWS = {
   "path": "./news/news.txt",
   "name": "news"
 }
-
-
 BIBLE = {
   "path": "./bible/preprocessed/preprocessed_text.txt",
   "name": "bible"
@@ -40,7 +38,7 @@ topics = [NEWS, BIBLE, WIKI_TL]
 
 for topic in topics:
   if topic["path"] != "":
-    with open(topic["path"], "r", encoding="utf8") as file:
+    with open(topic["path"], "r") as file:
       print(topic)
       text = file.read()
       print("Exporting word cloud for " + topic["name"] + "...")
