@@ -23,20 +23,25 @@ NEWS = {
   "path": "./news/news.txt",
   "name": "news"
 }
+
+
 BIBLE = {
-  "path": "",
-  "name": ""
+  "path": "./bible/preprocessed/preprocessed_text.txt",
+  "name": "bible"
 }
 WIKI_TL = {
-  "path": "",
-  "name": ""
+  "path": "./wiki_tl/preprocessed_wiki_tl.txt",
+  "name": "wiki tagalog"
 }
 
+
 topics = [NEWS, BIBLE, WIKI_TL]
+# topics = [NEWS, WIKI_TL]
 
 for topic in topics:
   if topic["path"] != "":
     with open(topic["path"], "r", encoding="utf8") as file:
+      print(topic)
       text = file.read()
       print("Exporting word cloud for " + topic["name"] + "...")
       create_wordcloud(text, topic["name"] + ".png")
