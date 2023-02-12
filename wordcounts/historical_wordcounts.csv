@@ -24,7 +24,7 @@ kapitan,128
 padre,123
 kay,115
 pa,111
-ngunit,108
+ngunit,109
 pari,96
 lamang,96
 kung,91
@@ -45,6 +45,7 @@ isagani,61
 bahay,60
 wala,55
 sila,54
+di,53
 tiyago,53
 nila,53
 para,51
@@ -56,7 +57,6 @@ kanya,45
 lahat,45
 san,43
 dumating,42
-'di,40
 ama,39
 ina,38
 binata,37
@@ -171,12 +171,11 @@ mag-aaral,13
 klase,13
 propesor,13
 sana,13
-siya'y,13
+siyay,13
 gabi,13
 intsik,13
 halip,13
 camorra,13
-di,13
 nitong,13
 naroon,13
 napag-usapan,13
@@ -219,7 +218,7 @@ tandang,11
 bangkay,11
 bilang,11
 pagkaraan,11
-ito'y,11
+itoy,11
 alam,11
 pagdating,10
 piging,10
@@ -326,8 +325,8 @@ sariling,7
 pagiging,7
 sumama,7
 naalala,7
-dito'y,7
-kaya't,7
+ditoy,7
+kayat,7
 matanda,7
 gubat,7
 paglalakbay,7
@@ -341,7 +340,7 @@ utusan,7
 sabihin,7
 tutol,7
 gumawa,7
-sila'y,7
+silay,7
 bapor,7
 chikoy,6
 nagpaalam,6
@@ -392,7 +391,7 @@ usap-usapan,6
 nabanggit,6
 tinutulan,6
 mayaman,6
-pa'y,6
+pay,6
 pag-uusap,6
 lugar,6
 ilalim,6
@@ -423,7 +422,7 @@ matandang,5
 pranses,5
 kaalaman,5
 akala,5
-maya-maya'y,5
+maya-mayay,5
 kaguluhan,5
 pinto,5
 matagal,5
@@ -501,7 +500,7 @@ mahilig,4
 pag-asa,4
 makaraan,4
 pagtitipon,4
-tatlumpu't,4
+tatlumput,4
 tinong,4
 bilanggo,4
 sinabihan,4
@@ -509,7 +508,7 @@ kumalat,4
 palihim,4
 aming,4
 patuloy,4
-niya'y,4
+niyay,4
 ipinagtapat,4
 pinansin,4
 maagang,4
@@ -559,7 +558,7 @@ pumayag,4
 sybila,4
 nakasulat,4
 papel,4
-iba't,4
+ibat,4
 tabi,4
 ikinatuwa,4
 pakialam,4
@@ -793,7 +792,7 @@ naroroon,3
 uri,3
 sinang,3
 tiyani,3
-nama'y,3
+namay,3
 kakulangan,3
 lolo,3
 leeg,3
@@ -860,7 +859,7 @@ lalawigan,3
 pamangkin,3
 pinag-aralan,3
 maganda,3
-noo'y,3
+nooy,3
 huling,3
 nadaanan,3
 mahusay,3
@@ -922,7 +921,7 @@ imbes,2
 paligid,2
 bandang,2
 papuntang,2
-isa't-isa,2
+isat-isa,2
 mapakali,2
 pagkikita,2
 masasakitin,2
@@ -990,7 +989,7 @@ tinangka,2
 tinitiis,2
 pagtulong,2
 mamalagi,2
-dati'y,2
+datiy,2
 dr,2
 matanggap,2
 tinutukoy,2
@@ -1235,7 +1234,7 @@ hayaan,2
 mabuting,2
 makialam,2
 bisa,2
-kunwari'y,2
+kunwariy,2
 sumangguni,2
 mananayaw,2
 lapitan,2
@@ -1267,6 +1266,7 @@ mahaba,2
 nagkamali,2
 mapuna,2
 sapatos,2
+bagamat,2
 kasulatang,2
 mayroon,2
 nginitian,2
@@ -1459,7 +1459,7 @@ look,2
 laguna,2
 pinagpa-planuhan,1
 piknik,1
-pagdaka'y,1
+pagdakay,1
 mamahinga,1
 nababahala,1
 mag-piknik,1
@@ -1654,7 +1654,7 @@ tawilis,1
 tuyong,1
 kasalatan,1
 nung,1
-mo'y,1
+moy,1
 sinasamba,1
 minamahal,1
 umuuwi,1
@@ -1685,7 +1685,7 @@ makakauwi,1
 mangatwiran,1
 magtangka,1
 ibinabalik,1
-hangga't,1
+hanggat,1
 maling,1
 salang,1
 pinagmulta,1
@@ -1729,7 +1729,6 @@ palayo,1
 lumakad,1
 gabay,1
 nirerespeto,1
-bagamat,1
 nakararami,1
 kataong,1
 doray,1
@@ -1951,7 +1950,7 @@ likha,1
 alikabok,1
 makaiwas,1
 makapag-sarili,1
-isa't,1
+isat,1
 magtama,1
 ayusin,1
 nataranta,1
@@ -2015,7 +2014,7 @@ kabanalan,1
 maibigan,1
 bilhin,1
 padasal,1
-lalo't,1
+lalot,1
 paggalang,1
 pag-ukulan,1
 mararangal,1
@@ -2196,7 +2195,7 @@ nagluluksa,1
 halatang,1
 talakayan,1
 lumawak,1
-kalauna'y,1
+kalaunay,1
 pakalmahin,1
 namagitang,1
 mahahalagang,1
@@ -2257,7 +2256,7 @@ hinipo,1
 magsisindi,1
 kumatok,1
 naluha,1
-kayo'y,1
+kayoy,1
 sigla,1
 narumihan,1
 diwa,1
@@ -2337,7 +2336,7 @@ nagdasal,1
 lunas,1
 ihanap,1
 dulot,1
-wari'y,1
+wariy,1
 uminom,1
 mapangutyang,1
 mailigtas,1
@@ -2452,13 +2451,13 @@ manloob,1
 nagpasyang,1
 lumoko,1
 makalawa,1
-umano'y,1
+umanoy,1
 nagsibalikan,1
 tagapanguna,1
 nilinlang,1
 ikatakot,1
 mangunguna,1
-diumano'y,1
+diumanoy,1
 kumikilos,1
 pasabi,1
 sumalakay,1
@@ -2511,7 +2510,7 @@ nagkunwari,1
 pagbibiro,1
 ganoong,1
 intindihin,1
-'wag,1
+wag,1
 magpatuloy,1
 magpapatawag,1
 nanlambot,1
@@ -2545,7 +2544,7 @@ nagbago,1
 malay,1
 nagdaratingan,1
 dinaramdam,1
-kinabukasa'y,1
+kinabukasay,1
 pinakamahal,1
 kromo,1
 palikuran,1
@@ -2644,7 +2643,7 @@ dumadalaw,1
 pagkawala,1
 pagsusulit,1
 nakakakuha,1
-naman'y,1
+namany,1
 nagmadali,1
 napatali,1
 kurso,1
@@ -2679,7 +2678,7 @@ hinihinging,1
 carolinas,1
 ipatatapon,1
 kamakailan,1
-pa't,1
+pat,1
 tagapagtanggol,1
 nakapiit,1
 nabalitaan,1
@@ -2746,7 +2745,7 @@ magpapaluwal,1
 isinauli,1
 kawalang-utang,1
 pamana,1
-dalawampu't,1
+dalawamput,1
 inalis,1
 pangmatrikula,1
 dalawanpung,1
@@ -2823,7 +2822,7 @@ kanyon,1
 hilang,1
 kabayuhan,1
 palakarin,1
-isa'y,1
+isay,1
 matigil,1
 dosenang,1
 magpabaril,1
@@ -2866,7 +2865,7 @@ kahihiyan,1
 pinagtatawanan,1
 pagkarapos,1
 hinuhubaran,1
-kami'y,1
+kamiy,1
 kamangmangan,1
 pag-aglahi,1
 maghanap,1
@@ -2881,7 +2880,6 @@ katungkulan,1
 opo,1
 pagkakatatag,1
 isisi,1
-nguni't,1
 layon,1
 batas,1
 nangatwiran,1
@@ -2901,7 +2899,7 @@ manlilinlang,1
 pagsasayang,1
 nagpapatuloy,1
 napakahangal,1
-gayo'y,1
+gayoy,1
 napakatanga,1
 sira,1
 palayok,1
@@ -2987,7 +2985,7 @@ buwitre,1
 uwak,1
 nilalapitan,1
 nangangamoy,1
-sabi'y,1
+sabiy,1
 mapanghimagsik,1
 paskin,1
 sangkot,1
@@ -3030,7 +3028,7 @@ alimasag,1
 inihambing,1
 sinegundahan,1
 panunumpa,1
-torta'y,1
+tortay,1
 inalay,1
 lumpiang,1
 tinaguriang,1
@@ -3212,7 +3210,7 @@ les,1
 ipaalam,1
 nakabuo,1
 labinlimang,1
-iba'y,1
+ibay,1
 mag-utos,1
 ipinalagay,1
 madrid,1
@@ -3270,7 +3268,7 @@ pag-uundayan,1
 ihagis,1
 habulin,1
 nagdaan,1
-libo't,1
+libot,1
 makapagtimpi,1
 nagbabawal,1
 gobernador,1
@@ -3407,7 +3405,7 @@ nabaling,1
 napasigaw,1
 katatapak,1
 diktahan,1
-ka't,1
+kat,1
 sumenyas,1
 sunod,1
 pinatigil,1
@@ -3448,7 +3446,6 @@ pagkakahuli,1
 pagbabakasakaling,1
 takong,1
 pinatunog,1
-bagama't,1
 mapilit,1
 lumagda,1
 basahin,1
@@ -3822,7 +3819,7 @@ balat,1
 melchor,1
 mago,1
 idinaan,1
-nito'y,1
+nitoy,1
 mundo,1
 pinaka-matandang,1
 metusalem,1
@@ -3872,7 +3869,7 @@ nahihilo,1
 ipinagpalagay,1
 nagtawanan,1
 pinakmurang,1
-'yon,1
+yon,1
 nakasama,1
 labingtatlong,1
 bakas,1
@@ -3950,7 +3947,7 @@ estudyate,1
 pasahero,1
 masikip,1
 kargamento,1
-palibhasa't,1
+palibhasat,1
 balot,1
 nadidiri,1
 suhestyon,1
