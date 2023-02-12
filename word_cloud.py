@@ -31,9 +31,16 @@ WIKI_TL = {
   "path": "./wiki_tl/preprocessed_wiki_tl.txt",
   "name": "wiki tagalog"
 }
+LITERATURE = {
+  "path": "./historical/hist-preprocessed.txt",
+  "name": "Literature"
+}
+SONGS = {
+  "path": "./songs/preprocessed.txt",
+  "name": "songs"
+}
 
-
-topics = [NEWS, BIBLE, WIKI_TL]
+topics = [NEWS, BIBLE, WIKI_TL, LITERATURE, SONGS]
 # topics = [NEWS, WIKI_TL]
 
 for topic in topics:
